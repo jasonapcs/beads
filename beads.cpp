@@ -42,6 +42,10 @@ int main() {
 		past = necklace[i];
 	}
 	
+	for (int i = 0; i < breakPoints.size(); i++) {
+		
+	}
+	
 	std::ofstream output("beads.out");
 
 	output << amt << "\n";
